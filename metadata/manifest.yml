@@ -2,11 +2,11 @@ Name: brms
 Cartridge-Short-Name: BRMS
 Display-Name: Red Hat JBoss BRM Suite 6
 Description: Red Hat JBoss BRMS is a comprehensive platform for business rules management and complex event processing.
-Version: '6.0.1'
+Version: '6.0.2'
 License: LGPL
 License-Url: http://www.gnu.org/copyleft/lesser.txt
 Vendor: Red Hat
-Cartridge-Version: 0.0.1
+Cartridge-Version: 0.0.2
 Cartridge-Vendor: jboss
 Source-Url: https://github.com/jboss-bpms/openshift-cartridge-brms.git
 Categories:
@@ -20,10 +20,10 @@ Website: http://www.jboss.org
 Help-Topics:
   Developer Center: https://www.openshift.com/developers
 Provides:
-  - brms-6.0.1
+  - brms-6.0.2
   - "brms"
-  - "brms(version) = 6.0.1"
-  - "brms(version) >= 6.0.1"
+  - "brms(version) = 6.0.2"
+  - "brms(version) >= 6.0.2"
 Publishes:
   publish-jboss-cluster:
     Type: NET_TCP:brms-cluster-info
@@ -57,7 +57,7 @@ Scaling:
   Max: 1
 Group-Overrides:
   - components:
-    - brms-6.0.1
+    - brms-6.0.2
     - web_proxy
 Endpoints:
   - Private-IP-Name: IP
